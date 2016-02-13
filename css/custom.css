@@ -1,0 +1,56 @@
+body, html {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: rgb(215, 92, 106);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	-webkit-transition: background 1s ;
+	-moz-transition: background 1s ;
+	-ms-transition: background 1s ;
+	-o-transition: background 1s ;
+	transition: background 1.2s ;
+}
+canvas {
+	background: rgba(0, 0, 0, 0);
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+  
+row {
+	position: relative;
+}
+
+img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+#background {
+	width: 100%;
+	margin: 0;
+}
+
+h2 {
+	font-size: 3.5em;
+	color: white;
+	margin: 1.5em auto 0 auto;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.5em;
+	color: white;
+	margin: 1em 1em 0 auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: right;
+}
+
+h3:hover {
+	cursor: pointer;
+	color: rgba(235, 235, 235, 0.8);
+}
